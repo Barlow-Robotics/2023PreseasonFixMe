@@ -104,8 +104,6 @@ public class Drive extends SubsystemBase {
 
         /* FIX ME! */
         // Use the getLeftSpeed() function above as a model to fill out this function.  Since it's on the other side (right vs left) you need to inverse the number - i.e. use -10 instead of 10
-        //double s = -rightLeader.getSelectedSensorVelocity() * 10.0 * Constants.DriveConstants.MetersPerCount;
-        //return (s);
     }
 
     public double getLeftDistance() {
@@ -176,7 +174,6 @@ public class Drive extends SubsystemBase {
         result.left = getLeftSpeed();
 /* FIX ME! */
 // Add a line of code like the one above, but for Right instead of Left
-//        result.right = getRightSpeed();
 
         return result;
     }
@@ -238,8 +235,6 @@ public class Drive extends SubsystemBase {
 
         /* FIX ME! */
         // Add 2 lines of code like the one above, but for Right instead of Left.  
-        //PhysicsSim.getInstance().addTalonSRX( rightLeader, 0.25,maxCtsPer100ms, true);
-        //PhysicsSim.getInstance().addVictorSPX(rightFollower);
     }
 
     @Override
